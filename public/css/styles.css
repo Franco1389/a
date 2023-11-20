@@ -94,15 +94,14 @@ header form input{
 }
 header form button{
     width: 10%;
+    font-size: 70%;
     height: 4vh;
     border: none;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: #FFF;
 }
-header form button i.fa-search{
-    font-size:60%,
-}
+
 header div.top-header p{
     width: 100%;
     text-align: center;
