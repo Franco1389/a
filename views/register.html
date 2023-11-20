@@ -54,14 +54,14 @@
         </header>
         <main class="register">
             <form class="register-form" action="/" method="POST">
-                <input type="text" name="name" placeholder="Nombre y apellido">
-                <input type="text" name="user" placeholder="Nombre de usuario">
-                <input type="email" name="email" placeholder="E-mail">
+                <input type="text" name="name" placeholder="Nombre y apellido" required>
+                <input type="text" name="user" placeholder="Nombre de usuario" required>
+                <input type="email" name="email" placeholder="E-mail" required>
                 <div><label for="birth_date"><b>Fecha de nacimiento:  </b></label>
-                    <input type="date" name="birth_date" id="birth_date">
+                    <input type="date" name="birth_date" id="birth_date" required>
                 </div>
                 
-                <input type="text" name="addres" placeholder="Domicilio">
+                <input type="text" name="addres" placeholder="Domicilio" required>
 
                 <h4>Perfil del usuario</h4>
                 <div class="profile">
@@ -98,8 +98,8 @@
                     <input type="file" name="avatar" accept=".jpg" class="user-photo">
                 </div>
                 
-                <input type="password" name="pass" placeholder="Elegí tu contraseña">
-                <input type="password" name="pass_confirm" placeholder="Confirmá tu contraseña">
+                <input type="password" name="pass" placeholder="Elegí tu contraseña" required>
+                <input type="password" name="pass_confirm" placeholder="Confirmá tu contraseña" required>
                 <input type="submit" value="Enviar" id="register-button-submit">
                 <input type="reset" value="Borrar"id="register-button-reset">
             </form>
