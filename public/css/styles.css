@@ -100,8 +100,8 @@ header form button{
     border-bottom-right-radius: 5px;
     background-color: #FFF;
 }
-i.fa-search{
-    size:2vw;
+header form button i.fa-search{
+    font-size:60%,
 }
 header div.top-header p{
     width: 100%;
