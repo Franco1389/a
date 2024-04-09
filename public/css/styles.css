@@ -109,6 +109,7 @@ header div.top-header p{
 }
 
 .burger-menu{
+    display: none;
     text-align: center;
 }
 
@@ -365,15 +366,26 @@ main section article i:hover{
     div.logo a img{
         width: 90%;
     }
+    .burger-menu{
+        display: block;
+    }
 }
 
 @media (min-width: 361px){
-    .burger-menu{
-        display: none;
-    }
     header nav{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         padding-bottom: 20px;
     }
+    header nav ul {
+        margin: 1%;
+        width: 100% !important;
+    }
+    header nav ul li a {
+        font-size: 0.8rem;
+    }
+
     main section article{
         width: 40%;
         margin:10px;
@@ -392,11 +404,18 @@ main section article i:hover{
         width: 20%;
         margin:10px;
     }
+    header ul li a{
+        font-size:1.5vw !important
+    }
     header div.top-header p{
         font-size:1.2vw;
     }
     .register-nav, .site-nav{
         width: 35vw;
+    }
+    header nav{
+        flex-direction: row ;
+        justify-content: space-around ;
     }
     footer{
         display:flex;
